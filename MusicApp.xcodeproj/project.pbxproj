@@ -120,13 +120,13 @@
 		EB81C4E72A53F5FB000F57D4 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				EBD2E33F2A76936B00A9219D /* Views */,
 				EB81C52F2A5400F2000F57D4 /* View */,
 				EB81C52C2A540086000F57D4 /* Utils */,
 				EB81C5272A53FCF2000F57D4 /* Extensions */,
 				EB81C5222A53F9F5000F57D4 /* Cells */,
 				EB81C4E82A53F5FB000F57D4 /* AppDelegate.swift */,
 				EB81C4EA2A53F5FB000F57D4 /* SceneDelegate.swift */,
-				EB81C4EC2A53F5FB000F57D4 /* ViewController.swift */,
 				EB81C4EE2A53F5FB000F57D4 /* Main.storyboard */,
 				EB81C4F42A53F5FC000F57D4 /* Assets.xcassets */,
 				EB81C4F62A53F5FC000F57D4 /* LaunchScreen.storyboard */,
@@ -192,6 +192,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD2E33F2A76936B00A9219D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB81C4EC2A53F5FB000F57D4 /* ViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

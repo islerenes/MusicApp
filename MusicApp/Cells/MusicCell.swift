@@ -104,38 +104,9 @@ class MusicCell: UITableViewCell {
     
     @IBAction func playSong(_ sender: UIButton) {
         var urlString = songUrl
-        print("abc",urlString)
         playAudio(for:urlString )
         
-        
-        
-       /* if let player = player, player.isPlaying {
-            player.stop()
-        }
-        
-        else {
-            var urlString = Bundle.main.path(forResource: "audio", ofType: "mp4")
-            urlString = songUrl
-            
-            do {
-                try AVAudioSession.sharedInstance().setMode(.default)
-                try AVAudioSession.sharedInstance().setActive(true)
-                
-                guard let urlString = urlString else { return }
-                
-                print("abc",urlString)
-                
-                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
-                guard let player = player else { return }
-                player.play()
-            }
-            
-            catch {
-                
-                print("something went wrong")
-                
-            }
-        }*/
+      
     }
     
     
